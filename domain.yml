@@ -1,0 +1,97 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - course_structure
+  - exercise
+  - price
+  - location
+  - next
+  - contact
+  - register
+  - group
+
+responses:
+  utter_greet:
+    - text: "Hey! Thank you for visiting our e-learning platform.
+
+        How may i help you today?"
+
+  utter_did_that_help:
+    - text: "Did that help?"
+
+  utter_happy:
+    - text: "Great, we look forward to see you in our e-learning class! Stay safe :)"
+
+  utter_goodbye:
+    - text: "Thanks for visiting our website!! Have a great day :D "
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_course_structure:
+    - text: "The course structure contains the following topics :
+
+        1. Adjectives and adverbs
+
+
+        2. Articles (a, an, the)
+
+
+        3. Conditional sentences (contains if clauses and main clauses)
+
+
+        4. Endings of nouns and verbs
+
+
+        5. Plural nouns
+
+
+        6. Irregular and regular verbs"
+
+  utter_exercise:
+    - text:
+        "The course exercise contains 10-20 personalised exercises for each individual.
+
+
+        The given exercises will depend on his/her cumulative performance."
+
+
+  utter_price:
+    - text: "The price is per student is as follows :
+    
+    MONTHLY/stu : RM 80.00
+    
+    ANUALLY/stu : RM 900.00 (Save RM 60.00 with one off payment)"
+
+  utter_location:
+    - text: "This is an AI powered classroom that will be hosted entirely online on our website."
+
+  utter_register:
+    - text: "To register, please fill in the information required at the SIGN UP column. "
+
+
+  utter_contact:
+    - text: "To contact an admin, please call 06-123456 or email at admin@ai.com"
+
+  utter_deny:
+    - text: "Please rephrase your question or you may also choose contact an admin. You may also kindly have a look at our website to begin exploring."
+  
+  utter_group:
+    - text: "Your groups will be divided by AI based on your progress.
+    
+    Each group will have members with different strentghs so they can help one and other in the learning process."
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
