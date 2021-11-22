@@ -1,0 +1,110 @@
+version: "2.0"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - assalamualaikum
+
+  - intent: goodbye
+    examples: |
+      - good afternoon
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+      - am i speaking to a person?
+
+  - intent: course_structure
+    examples: |
+      - what is the course structure?
+      - what are the available topics?
+      - what can i learn here?
+      - what can you help me with?
+
+  - intent: exercise
+    examples: |
+      - what type of exercise given?
+      - what are the types of homeworks?
+      - do i have alot of homework?
+      - types of tasks
+
+  - intent: price
+    examples: |
+      - what is the price per month?
+      - what is the fee?
+      - price of this course?
+      - fee structure per student?
+      - yearly fee?
+
+  - intent: location
+    examples: |
+      - are there any phsyical lessons?
+      - where is the class carried out?
+      - is it fully online?
+
+  - intent: register
+    examples: |
+      - what should i do next?
+      - how should i register?
+      - how do i get started?
+
+  - intent: contact
+    examples: |
+      - who can i contact via phone call?
+      - is there a number i can call?
+      - email
+      - e-mail
+      - is there anyone i can email?
+
+  - intent: group
+    examples: |
+      - how will i be grouped?
+      - how is the grouping like?
+      - who will i be grouped with?
+      - groups
+      - how is the groups set up?
